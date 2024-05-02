@@ -1,0 +1,12 @@
+# Inisialisasi dictionary untuk menyimpan harga menu
+harga_menu = {
+    "nasi pecel": {"harga": 5000, "stok": 25},
+    "nasi kuning": {"harga": 6000, "stok": 25},
+    "nasi bakar": {"harga": 9000, "stok": 25},
+    "ayam goreng": {"harga": 11000, "stok": 30},
+    "ayam bakar": {"harga": 11000, "stok": 30},
+    "mendoan": {"harga": 2000, "stok": 40},
+    "sate usus": {"harga": 3000, "stok": 40},
+    "es teh": {"harga": 4000, "stok": 30},
+    "es jeruk": {"harga": 5000, "stok": 30}
+}

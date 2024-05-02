@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .neonText {
+  animation: flicker 1.5s infinite alternate;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4.2rem;    
+}
+
+/* Flickering animation */
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+
+/* Additional styling */
+  
+h2 {
+ font-size: 1.8rem;
+}
+.container {
+  margin-top: 20vh;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Helvetica Neue", sans-serif;
+  background-color:  rgb(37, 187, 200);
+}  
+
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+    </style>
+</head>
+<body>
+    
+    <form action="profil.html" method="POST">
+    <p align="center"><b><img border="0" src="perawat.jpeg" width="200" height="161" align="middle"></b></p>
+      <p align="center">&copy; RUMAH SAKIT KHAYANGAN <br>2024</p>
+    </p>
+    <div class="container">
+        <h2 class="neonText">
+    <p align="center" style="color:rgb(91, 76, 168)">
+       TRANSAKSI SUKSES TERIMAKASIH SEMOGA LEKAS SEMBUH
+    </p></h2></div>
+    <center>
+        <h3> <b>KONTAK KAMI</b></h3>
+        <cite>WA:0895415011653</cite>
+        <br>
+        <cite>IG:@RUMAHSAKIT_KHAYANGAN</cite>
+         <p>
+        <a href="fasilitas.html"><input type="button" value="next" name="next"/></a>
+        </p>
+        </center>
+        
+     </body>
+</body>
+</html>
